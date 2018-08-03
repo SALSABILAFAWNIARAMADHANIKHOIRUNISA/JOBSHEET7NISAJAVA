@@ -5,10 +5,6 @@
  */
 package Latihan;
 import java.util.Scanner;
-/**
- *
- * @author Hp
- */
 public class SaranBahan2Resep {
     public static void main(String[] args) {
         String identitas = "Salsabila Fawnia Ramadhani Khoirunisa / XRPL5 / 40";
