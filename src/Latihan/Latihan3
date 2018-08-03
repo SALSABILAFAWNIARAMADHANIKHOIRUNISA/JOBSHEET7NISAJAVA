@@ -1,0 +1,28 @@
+package Latihan;
+import java.util.Scanner;
+public class Latihan3 {
+    public static void main(String[] args) {
+        String identitas = "Salsabila Fawnia Ramadhani Khoirunisa / XRPL5 / 40";
+        System.out.println("Identitas : "+ identitas);
+        
+        //membuat variable belanja dan Scanner
+        int belanja = 0;
+        Scanner scanner = new Scanner(System.in);
+        
+        //mengambil input
+        System.out.print("Total Belanjaan: Rp ");
+        belanja = scanner.nextInt();
+        
+        //cek apakah dia belanja di atas 100000
+        if(belanja > 100000) {
+            System.out.println("Selamat, anda mendapatkan hadiah!");
+        
+        }else{
+        if(belanja < 100000) {
+            System.out.println("Coba Lagi..");
+        }
+        
+        }
+        System.out.println("Terima kasih...");
+        }
+}
